@@ -98,4 +98,18 @@ Cuanto toma encontrar los nodos adyacentes a un nodo: V*(V-1)
 
 #### Matriz de Adyacencia
   matriz de nxn donde n = V
+  La matriz es simetrica
+  
+  Cuanto cuestra encontrar todos los vertices adyacentes a un vertice: O(V)
+  
+  Problemas:
+  - Mucho costo de memoria
+  - Insertar cuesta mucho, hay que redimencionar
+#### Lista de adyacencia
+struct Edge {
+  Vertex* startVertex;
+  Vertex* endVertex;
+  ....
+]
+
   
